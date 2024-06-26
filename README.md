@@ -248,7 +248,7 @@
       Пример:
       ```nginx
       server {
-        server_name giplatform.ru www.giplatform.ru;
+        server_name example.com www.example.com;
     
         location / {
           proxy_pass http://127.0.0.1:5173;
